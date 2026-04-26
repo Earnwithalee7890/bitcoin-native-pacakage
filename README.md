@@ -2,7 +2,7 @@
 
 A high-performance TypeScript library for building native Bitcoin and Stacks applications, optimized for the **Talent Protocol** ecosystem.
 
-[![npm version](https://img.shields.io/npm/v/@earnwithalee/bitcoin-native.svg)](https://www.npmjs.com/package/@earnwithalee/bitcoin-native)
+[![npm version](https://img.shields.io/npm/v/@earnwithalee/bitcoin-native.svg?style=flat-square)](https://www.npmjs.com/package/@earnwithalee/bitcoin-native)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 🌟 Overview
