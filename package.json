@@ -1,0 +1,56 @@
+{
+  "name": "@earnwithalee/bitcoin-native",
+  "version": "1.0.0",
+  "description": "A high-performance Bitcoin and Stacks native library for building decentralized applications on Hiro and Talent Protocol.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "dev": "tsup src/index.ts --format cjs,esm --watch --dts",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "bitcoin",
+    "stacks",
+    "stx",
+    "btc",
+    "blockchain",
+    "web3",
+    "clarity",
+    "smart-contracts",
+    "talent-protocol",
+    "defi",
+    "wallet",
+    "hiro",
+    "layer2",
+    "l2"
+  ],
+  "author": "Earnwithalee",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Earnwithalee7890/bitcoin-native-pacakage.git"
+  },
+  "homepage": "https://github.com/Earnwithalee7890/bitcoin-native-pacakage#readme",
+  "bugs": {
+    "url": "https://github.com/Earnwithalee7890/bitcoin-native-pacakage/issues"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
